@@ -1,0 +1,10 @@
+ATACseq analysis: alignment
+Tue Dec 10 16:38:36 GMT 2024
+
+Aligning ARID2wt
+[bam_sort_core] merging from 0 files and 12 in-memory blocks...
+Aligning ARID2ko
+[bam_sort_core] merging from 0 files and 12 in-memory blocks...
+
+Done
+Tue Dec 10 16:43:42 GMT 2024
