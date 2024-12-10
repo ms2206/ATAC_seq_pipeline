@@ -1,0 +1,96 @@
+ATACseq analysis: making BigWigs
+Tue Dec 10 18:02:10 GMT 2024
+
+
+Processing ARID2wt
+
+normalization: RPKM
+bamFilesList: ['/mnt/beegfs/home/s430452/epigenetics/results/s05_final_bams/ARID2wt_final.bam']
+binLength: 10
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: 200
+numberOfProcessors: 6
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 10
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 800
+
+Processing ARID2ko
+
+normalization: RPKM
+bamFilesList: ['/mnt/beegfs/home/s430452/epigenetics/results/s05_final_bams/ARID2ko_final.bam']
+binLength: 10
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: 200
+numberOfProcessors: 6
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 10
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 800
+
+Merged
+
+normalization: RPKM
+bamFilesList: ['/mnt/beegfs/home/s430452/epigenetics/results/s05_final_bams/master.bam']
+binLength: 10
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: 200
+numberOfProcessors: 6
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: None
+ignoreDuplicates: False
+chrsToSkip: []
+stepSize: 10
+center_read: False
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: None
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 800
+
+Done
+Tue Dec 10 18:06:51 GMT 2024
