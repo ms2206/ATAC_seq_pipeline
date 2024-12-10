@@ -1,0 +1,5 @@
+ID Species Gene
+m1 Mouse ABC-123
+f1 Fish XYZ-987
+m2 Mouse KLM-002
+f2 Fish BBC-875

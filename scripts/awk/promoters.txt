@@ -1,0 +1,5 @@
+Gene Promoter_start
+ABC-123 chr1_6875
+XYZ-987 chr8_4000091
+KLM-002 chr3_570219
+BBC-875 chr5_643210
