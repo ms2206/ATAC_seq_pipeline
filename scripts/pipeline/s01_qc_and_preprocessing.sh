@@ -41,7 +41,7 @@ module load Trim_Galore/0.6.10-GCCcore-11.3.0
 
 # Folders for input and output
 # should exist before running the script
-base_folder="/mnt/beegfs/home/alexey.larionov/teaching_2024/epigenetics"
+base_folder="/mnt/beegfs/home/s430452/epigenetics/"
 raw_fastq_folder="${base_folder}/data/atac_seq" # Contains source files
 trimmed_fastq_folder="${base_folder}/results/s01_trimming" # for results
 
