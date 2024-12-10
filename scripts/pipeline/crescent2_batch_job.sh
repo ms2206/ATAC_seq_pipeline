@@ -1,6 +1,6 @@
 #!/bin/bash
 # ATACseq analysis: QC and Preprocessing
-# Alexey Larionov 23Nov2024
+# Matthew Spriggs 10Dec2024
 
 # PBS directives that you should review and change if needed
 #-----------------------------------------------------------
@@ -10,7 +10,7 @@
 #PBS -l walltime=00:30:00
 #PBS -q half_hour
 #PBS -m abe
-#PBS -M alexey.larionov@cranfield.ac.uk
+#PBS -M matthew.spriggs.453@cranfield.ac.uk
 
 # PBS directives and code that you should not change
 #===================================================
