@@ -1,0 +1,12 @@
+ATACseq analysis: make final BAMs
+Tue Dec 10 17:56:57 GMT 2024
+
+Sorting and indexing ARID2wt
+[bam_sort_core] merging from 0 files and 6 in-memory blocks...
+Sorting and indexing ARID2ko
+[bam_sort_core] merging from 0 files and 6 in-memory blocks...
+Merging bams
+[bam_sort_core] merging from 0 files and 6 in-memory blocks...
+
+Done
+Tue Dec 10 17:57:34 GMT 2024
