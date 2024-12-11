@@ -1,6 +1,6 @@
 #!/bin/bash
 # ATACseq analysis: calling peaks
-# Alexey Larionov 25Nov2024
+# Matthew Spriggs 11Dec2024
 
 # Stop at runtime errors
 set -e
@@ -15,7 +15,7 @@ module load MACS2/2.2.9.1-foss-2022b # for peak calling
 module load BEDTools/2.30.0-GCC-12.2.0 # for removing blacklisted regions
 
 # Folders
-base_folder="/mnt/beegfs/home/alexey.larionov/teaching_2024/epigenetics"
+base_folder="/mnt/beegfs/home/s430452/epigenetics"
 resources_folder="${base_folder}/resources" # contains blacklisted regions
 samples_folder="${base_folder}/data/atac_seq" # contains samples file
 final_bams_folder="${base_folder}/results/s05_final_bams" # contains master bam file

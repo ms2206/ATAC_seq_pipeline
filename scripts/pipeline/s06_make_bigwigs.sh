@@ -5,7 +5,7 @@
 # PBS directives that you should review and change if needed
 #-----------------------------------------------------------
 
-#PBS -N s01_qc_and_preprocessing
+#PBS -N s06_make_bigwigs
 #PBS -l nodes=1:ncpus=6
 #PBS -l walltime=00:30:00
 #PBS -q half_hour
