@@ -10,7 +10,7 @@
 #PBS -l walltime=00:30:00
 #PBS -q half_hour
 #PBS -m abe
-#PBS -M matthew.spriggs.453@cranfield.ac.uk
+#PBS -M matthew.spriggs.452@cranfield.ac.uk
 
 # PBS directives and code that you should not change
 #===================================================
@@ -18,7 +18,6 @@
 #PBS -v "CUDA_VISIBLE_DEVICES="
 #PBS -W sandbox=PRIVATE
 #PBS -k n
-
 ln -s $PWD $PBS_O_WORKDIR/$PBS_JOBID
 ## Change to working directory
 cd $PBS_O_WORKDIR
@@ -27,7 +26,6 @@ export cpus=`cat $PBS_NODEFILE | wc -l`
 ## Load production modules
 module use /apps2/modules/all
 ## =============
-
 
 
 # Stop at runtime errors
