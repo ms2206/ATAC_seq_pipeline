@@ -5,7 +5,7 @@
 # PBS directives that you should review and change if needed
 #-----------------------------------------------------------
 
-#PBS -N s08_peaks_coverage <--- CHANGE THIS LINE
+#PBS -N s08_peaks_coverage
 #PBS -l nodes=1:ncpus=6
 #PBS -l walltime=00:30:00
 #PBS -q half_hour
