@@ -1,0 +1,37 @@
+INFO  @ Wed, 11 Dec 2024 09:11:17: 
+# Command line: callpeak --nomodel -t /mnt/beegfs/home/s430452/epigenetics/results/s05_final_bams/master.bam --outdir /mnt/beegfs/home/s430452/epigenetics/results/s07_peaks -n master -f BAMPE -g hs --keep-dup all
+# ARGUMENTS LIST:
+# name = master
+# format = BAMPE
+# ChIP-seq file = ['/mnt/beegfs/home/s430452/epigenetics/results/s05_final_bams/master.bam']
+# control file = None
+# effective genome size = 2.70e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Wed, 11 Dec 2024 09:11:17: #1 read fragment files... 
+INFO  @ Wed, 11 Dec 2024 09:11:17: #1 read treatment fragments... 
+INFO  @ Wed, 11 Dec 2024 09:11:21:  1000000 
+INFO  @ Wed, 11 Dec 2024 09:11:24:  2000000 
+INFO  @ Wed, 11 Dec 2024 09:11:28:  3000000 
+INFO  @ Wed, 11 Dec 2024 09:11:31: 3819277 fragments have been read. 
+INFO  @ Wed, 11 Dec 2024 09:11:34: #1 mean fragment size is determined as 216.4 bp from treatment 
+INFO  @ Wed, 11 Dec 2024 09:11:34: #1 fragment size = 216.4 
+INFO  @ Wed, 11 Dec 2024 09:11:34: #1  total fragments in treatment: 3819277 
+INFO  @ Wed, 11 Dec 2024 09:11:34: #1 finished! 
+INFO  @ Wed, 11 Dec 2024 09:11:34: #2 Build Peak Model... 
+INFO  @ Wed, 11 Dec 2024 09:11:34: #2 Skipped... 
+INFO  @ Wed, 11 Dec 2024 09:11:34: #3 Call peaks... 
+INFO  @ Wed, 11 Dec 2024 09:11:34: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Wed, 11 Dec 2024 09:11:51: #3 Call peaks for each chromosome... 
+INFO  @ Wed, 11 Dec 2024 09:11:58: #4 Write output xls file... /mnt/beegfs/home/s430452/epigenetics/results/s07_peaks/master_peaks.xls 
+INFO  @ Wed, 11 Dec 2024 09:11:59: #4 Write peak in narrowPeak format file... /mnt/beegfs/home/s430452/epigenetics/results/s07_peaks/master_peaks.narrowPeak 
+INFO  @ Wed, 11 Dec 2024 09:11:59: #4 Write summits bed file... /mnt/beegfs/home/s430452/epigenetics/results/s07_peaks/master_summits.bed 
+INFO  @ Wed, 11 Dec 2024 09:11:59: Done! 
