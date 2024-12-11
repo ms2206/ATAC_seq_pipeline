@@ -1,0 +1,9 @@
+INFO [2024-12-11 17:03:12] $x
+INFO [2024-12-11 17:03:12] list(ATAC_down_genes, ATAC_up_genes, RNAseq_DEGs)
+INFO [2024-12-11 17:03:12] 
+INFO [2024-12-11 17:03:12] $category.names
+INFO [2024-12-11 17:03:12] c("ATAC_DN", "ATAC_UP", "RNAseq_DEGs")
+INFO [2024-12-11 17:03:12] 
+INFO [2024-12-11 17:03:12] $filename
+INFO [2024-12-11 17:03:12] paste(output_folder, "/venn.png", sep = "")
+INFO [2024-12-11 17:03:12] 
