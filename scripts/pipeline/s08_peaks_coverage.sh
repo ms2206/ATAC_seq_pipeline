@@ -2,7 +2,7 @@
 # ATACseq analysis: peaks coverage
 # Matthew Spriggs 11Dec2024
 
- PBS directives that you should review and change if needed
+# PBS directives that you should review and change if needed
 #-----------------------------------------------------------
 
 #PBS -N s08_peaks_coverage <--- CHANGE THIS LINE
