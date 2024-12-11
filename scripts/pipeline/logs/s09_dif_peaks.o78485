@@ -1,0 +1,12 @@
+Started launcher shell script
+Wed Dec 11 12:44:18 GMT 2024
+
+[1] "Started R script"
+[1] "ATACseq analysis: detecting peaks with differential coverage"
+[1] "Number of peaks with increased coverage: 192"
+[1] "Number of peaks with decreased coverage: 495"
+[1] "Number of peaks with no change in coverage:  7753"
+[1] "Completed R script"
+
+Completed launcher shell script
+Wed Dec 11 12:44:23 GMT 2024
