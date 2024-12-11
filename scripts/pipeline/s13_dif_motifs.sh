@@ -1,7 +1,34 @@
 #!/bin/bash
 # ATACseq analysis: detecting DNA motifs associated with differential summits
 # This script takes about 1hr to run
-# Alexey Larionov 25Nov2024
+# Matthew Spriggs 10Dec2024
+
+
+# PBS directives that you should review and change if needed
+#-----------------------------------------------------------
+
+#PBS -N s13_dif_motifs
+#PBS -l nodes=1:ncpus=12
+#PBS -l walltime=03:00:00
+#PBS -q three_hour
+#PBS -m abe
+#PBS -M matthew.spriggs.452@cranfield.ac.uk
+
+# PBS directives and code that you should not change
+#===================================================
+#PBS -j oe
+#PBS -v "CUDA_VISIBLE_DEVICES="
+#PBS -W sandbox=PRIVATE
+#PBS -k n
+ln -s $PWD $PBS_O_WORKDIR/$PBS_JOBID
+## Change to working directory
+cd $PBS_O_WORKDIR
+## Calculate number of CPUs and GPUs
+export cpus=`cat $PBS_NODEFILE | wc -l`
+## Load production modules
+module use /apps2/modules/all
+## =============
+
 
 # Stop at runtime errors
 set -e
@@ -16,7 +43,7 @@ module load Singularity/3.11.0-1-system
 singularity --version
 
 # Folders
-base_folder="/mnt/beegfs/home/alexey.larionov/teaching_2024/epigenetics"
+base_folder="/mnt/beegfs/home/s430452/epigenetics"
 containers_folder="${base_folder}/containers" 
 dif_summits_folder="${base_folder}/results/s10_dif_summits" # folder with differential summits
 dif_motifs_folder="${base_folder}/results/s13_dif_motifs" # for results
@@ -65,3 +92,7 @@ done # next sample
 echo ""
 echo "Done"
 date
+
+# Clean-up (keep it at the end of the script)
+## ==========================================
+rm $PBS_O_WORKDIR/$PBS_JOBID
