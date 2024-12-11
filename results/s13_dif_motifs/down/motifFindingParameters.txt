@@ -1,0 +1,1 @@
+cmd = /mnt/beegfs/home/s430452/epigenetics/results/s10_dif_summits/master_summits_down.bed hg38 /mnt/beegfs/home/s430452/epigenetics/results/s13_dif_motifs/down -preparsedDir /mnt/beegfs/home/s430452/epigenetics/results/s13_dif_motifs/preparsed_dir -size 200 -p 12
