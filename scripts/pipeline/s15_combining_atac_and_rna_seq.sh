@@ -2,7 +2,7 @@
 # ATACseq analysis: ATAC-seq vs DEGs
 # Laucher for R script s15_combining_atac_and_rna_seq.r
 # This script takes < 1 min to run
-# Alexey Larionov 24Nov2024
+# Alexey Larionov 11Dec2024
 
 # Crescent2 script
 # Note: this script should be run on a compute node
@@ -16,7 +16,7 @@
 #PBS -l walltime=00:30:00
 #PBS -q half_hour
 #PBS -m abe
-#PBS -M alexey.larionov@cranfield.ac.uk
+#PBS -M matthew.spriggs.452@cranfield.ac.uk
 
 #===============
 #PBS -j oe

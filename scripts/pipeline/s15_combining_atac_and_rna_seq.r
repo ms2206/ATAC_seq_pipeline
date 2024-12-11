@@ -3,14 +3,14 @@
 # This R script should be launched on a compute node
 # using a launcher shell script
 
-# Alexey Larionov 02Dec2024
+# Matthew Spriggs 11Dec2024
 
 # Start message
 print("Started R script")
 print("ATACseq analysis: ATACseq vs RNAseq")
 
 # Folders
-base_folder <- "/mnt/beegfs/home/alexey.larionov/teaching_2024/epigenetics"
+base_folder <- "/mnt/beegfs/home/s430452/epigenetics"
 rnaseq_data_folder <- paste(base_folder, "/data/rna_seq", sep = "")
 atac_data_folder <- paste(base_folder, "/results/s12_dif_genes", sep = "")
 output_folder <- paste(base_folder, "/results/s15_atac_vs_rna_seq", sep = "")
@@ -36,7 +36,7 @@ ATAC_up_genes <- ATAC_up_genes.df[, 1]
 
 # Read RNAseq DEGs gene list
 RNAseq_DEGs_file <- paste(rnaseq_data_folder,
-                          "/DESeq_ARID2ko_v_ARID2wt_chr5.csv", sep = "")
+                          "/DESeq_ARID2Ko_v_ARID2wt_chr5.csv", sep = "")
 RNAseq_DEGs.df <- read.csv(RNAseq_DEGs_file)
 
 # Keep only significant DEGs
