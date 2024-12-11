@@ -10,7 +10,7 @@ print("Started R script")
 print("ATACseq analysis: detecting peaks with differential coverage")
 
 # Folders
-base_folder <- "/mnt/beegfs/home/alexey.larionov/teaching_2024/epigenetics"
+base_folder <- "/mnt/beegfs/home/s430452/epigenetics"
 input_folder <- paste(base_folder, "/results/s08_counts", sep = "")
 output_folder <- paste(base_folder, "/results/s09_dif_peaks", sep = "")
 
