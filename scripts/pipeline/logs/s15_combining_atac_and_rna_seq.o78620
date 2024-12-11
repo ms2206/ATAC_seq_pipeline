@@ -1,0 +1,14 @@
+Started launcher shell script
+Wed Dec 11 17:03:08 GMT 2024
+
+[1] "Started R script"
+[1] "ATACseq analysis: ATACseq vs RNAseq"
+[1] "Reading ATACseq and RNAseq gene lists"
+[1] "Making Venn diagram"
+Loading required package: grid
+Loading required package: futile.logger
+[1] "Saving overlapping genes to text files"
+[1] "Completed R script"
+
+Completed launcher shell script
+Wed Dec 11 17:03:14 GMT 2024
