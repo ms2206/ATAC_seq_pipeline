@@ -1,0 +1,15 @@
+Status	/mnt/beegfs/home/s430452/epigenetics/results/s05_final_bams/ARID2ko_final.bam	/mnt/beegfs/home/s430452/epigenetics/results/s05_final_bams/ARID2wt_final.bam
+Assigned	1797631	2124229
+Unassigned_Unmapped	0	0
+Unassigned_Read_Type	0	0
+Unassigned_Singleton	0	0
+Unassigned_MappingQuality	0	0
+Unassigned_Chimera	0	0
+Unassigned_FragmentLength	0	0
+Unassigned_Duplicate	0	0
+Unassigned_MultiMapping	0	0
+Unassigned_Secondary	0	0
+Unassigned_NonSplit	0	0
+Unassigned_NoFeatures	2039954	2271161
+Unassigned_Overlapping_Length	0	0
+Unassigned_Ambiguity	0	0
