@@ -1,0 +1,66 @@
+ATACseq analysis: peaks coverage
+Wed Dec 11 12:19:07 GMT 2024
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.4
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 2 BAM files                                      ||
+||                                                                            ||
+||                           ARID2ko_final.bam                                ||
+||                           ARID2wt_final.bam                                ||
+||                                                                            ||
+||             Output file : master_peaks_counts.txt                          ||
+||                 Summary : master_peaks_counts.txt.summary                  ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : master_peaks.saf (SAF)                           ||
+||      Dir for temp files : /mnt/beegfs/home/s430452/epigenetics/results ... ||
+||                                                                            ||
+||                 Threads : 6                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file master_peaks.saf ...                                  ||
+||    Features : 8440                                                         ||
+||    Meta-features : 8440                                                    ||
+||    Chromosomes/contigs : 3                                                 ||
+||                                                                            ||
+|| Process BAM file ARID2ko_final.bam...                                      ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 3837585                                              ||
+||    Successfully assigned alignments : 1797631 (46.8%)                      ||
+||    Running time : 0.02 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ARID2wt_final.bam...                                      ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 4395390                                              ||
+||    Successfully assigned alignments : 2124229 (48.3%)                      ||
+||    Running time : 0.02 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/mnt/beegfs/home/s43045  ||
+|| 2/epigenetics/results/s08_counts/master_peaks_counts.txt.summary"          ||
+||                                                                            ||
+\\============================================================================//
+
+
+Done
+Wed Dec 11 12:19:09 GMT 2024
