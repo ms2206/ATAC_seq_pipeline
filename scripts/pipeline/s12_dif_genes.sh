@@ -1,7 +1,7 @@
 #!/bin/bash
 # ATACseq analysis: annotate differential summits with HOMER (including nearest gene)
 # This script takes < 3 min to run
-# Alexey Larionov 24Nov2024
+# Matthew Spriggs 11Dec2024
 
 # Crescent2 script
 # Note: this script should be run on a compute node
@@ -15,7 +15,7 @@
 #PBS -l walltime=00:30:00
 #PBS -q half_hour
 #PBS -m abe
-#PBS -M alexey.larionov@cranfield.ac.uk
+#PBS -M matthew.spriggs.452@cranfield.ac.uk
 
 #===============
 #PBS -j oe
@@ -44,7 +44,7 @@ module load Singularity/3.11.0-1-system
 singularity --version
 
 # Folders
-base_folder="/mnt/beegfs/home/alexey.larionov/teaching_2024/epigenetics"
+base_folder="/mnt/beegfs/home/s430452/epigenetics"
 containers_folder="${base_folder}/containers" # folder with HOMER Singularity container
 dif_summits_folder="${base_folder}/results/s10_dif_summits" # folder with differential summits
 dif_genes_folder="${base_folder}/results/s12_dif_genes" # for results
